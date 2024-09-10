@@ -38,7 +38,6 @@
             this.btRaizCuadrada = new System.Windows.Forms.Button();
             this.btLimpiar = new System.Windows.Forms.Button();
             this.lbRespuesta = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label3
@@ -46,7 +45,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(105, 237);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(175, 25);
+            this.label3.Size = new System.Drawing.Size(142, 20);
             this.label3.TabIndex = 9;
             this.label3.Text = "Escriba un número";
             // 
@@ -55,7 +54,7 @@
             this.txtNumero2.Location = new System.Drawing.Point(386, 234);
             this.txtNumero2.MaxLength = 5;
             this.txtNumero2.Name = "txtNumero2";
-            this.txtNumero2.Size = new System.Drawing.Size(188, 30);
+            this.txtNumero2.Size = new System.Drawing.Size(188, 26);
             this.txtNumero2.TabIndex = 8;
             // 
             // label2
@@ -63,7 +62,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(105, 158);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(175, 25);
+            this.label2.Size = new System.Drawing.Size(142, 20);
             this.label2.TabIndex = 7;
             this.label2.Text = "Escriba un número";
             // 
@@ -72,7 +71,7 @@
             this.txtNumero1.Location = new System.Drawing.Point(386, 154);
             this.txtNumero1.MaxLength = 5;
             this.txtNumero1.Name = "txtNumero1";
-            this.txtNumero1.Size = new System.Drawing.Size(188, 30);
+            this.txtNumero1.Size = new System.Drawing.Size(188, 26);
             this.txtNumero1.TabIndex = 6;
             // 
             // label1
@@ -82,7 +81,7 @@
             this.label1.ForeColor = System.Drawing.Color.DarkOrange;
             this.label1.Location = new System.Drawing.Point(259, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(412, 59);
+            this.label1.Size = new System.Drawing.Size(335, 47);
             this.label1.TabIndex = 5;
             this.label1.Text = "Operaciones varias";
             // 
@@ -131,25 +130,14 @@
             this.lbRespuesta.AutoSize = true;
             this.lbRespuesta.Location = new System.Drawing.Point(654, 202);
             this.lbRespuesta.Name = "lbRespuesta";
-            this.lbRespuesta.Size = new System.Drawing.Size(0, 25);
+            this.lbRespuesta.Size = new System.Drawing.Size(0, 31);
             this.lbRespuesta.TabIndex = 14;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(687, 103);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(151, 55);
-            this.button2.TabIndex = 15;
-            this.button2.Text = "button1";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(954, 497);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.lbRespuesta);
             this.Controls.Add(this.btLimpiar);
             this.Controls.Add(this.btRaizCuadrada);
@@ -181,6 +169,5 @@
         private System.Windows.Forms.Button btRaizCuadrada;
         private System.Windows.Forms.Button btLimpiar;
         private System.Windows.Forms.Label lbRespuesta;
-        private System.Windows.Forms.Button button2;
     }
 }
