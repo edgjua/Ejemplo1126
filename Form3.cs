@@ -37,6 +37,13 @@ namespace Ejemplo1126
             txtNumero2.Clear();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FrmConteo frmConteo = new FrmConteo();
+            frmConteo.Show();
+            this.Hide();
+        }
+
         private void btPotencia_Click(object sender, EventArgs e)
         {
             guardarValores();
