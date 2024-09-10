@@ -37,6 +37,13 @@ namespace Ejemplo1126
             txtNumero2.Clear();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FrmSuma objFrmSuma = new FrmSuma();
+            objFrmSuma.Show();
+            this.Hide();
+        }
+
         private void btPotencia_Click(object sender, EventArgs e)
         {
             guardarValores();
